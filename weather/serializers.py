@@ -7,8 +7,7 @@ class WeatherRecordSerializer(serializers.ModelSerializer):
         model = WeatherRecord
         fields = [
             "timestamp","latitude","longitude",
-            "temperature_2m",
-            "relative_humidity_2m",
+            "temperature_2m","relative_humidity_2m",
         ]
 
 
